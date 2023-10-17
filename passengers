@@ -1,0 +1,12 @@
+CREATE TABLE passengers (
+id integer NOT NULL PRIMARY KEY AUTOINCREMENT,
+first TEXT,
+last TEXT,
+flight_id INTEGER);
+
+INSERT INTO passengers (first, last, flight_id) VALUES ("Harry", "Potter", 1);
+INSERT INTO passengers (first, last, flight_id) VALUES ("Ron", "Weasley", 1);
+INSERT INTO passengers (first, last, flight_id) VALUES ("Hermione", "Granger", 2);
+INSERT INTO passengers (first, last, flight_id) VALUES ("Draco", "Malfroy", 4);
+INSERT INTO passengers (first, last, flight_id) VALUES ("Luna", "Lovegood", 6);
+INSERT INTO passengers (first, last, flight_id) VALUES ("Ginny", "Weasley", 6);
